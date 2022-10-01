@@ -1,6 +1,3 @@
-from sre_parse import parse_template
-
-
 PALAVRAS_PROIBIDAS = ('futebol', 'religião', 'política',)
 
 textos = [
