@@ -6,4 +6,4 @@ with open('pessoas.csv') as arquivo:
         print('Nome: {}, Idade: {}'.format(*registro.strip().split(',')))
 
 if arquivo.closed:
-    print('File closed!')
+    print('Closed file!')
