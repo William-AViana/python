@@ -11,4 +11,4 @@ finally:
     arquivo.close()
 
 if arquivo.closed:
-    print('File closed!')
+    print('Closed file!')
