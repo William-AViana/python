@@ -3,7 +3,7 @@ from app.negocio import nome_existe
 from app.negocio.backend import add_nome
 
 
-def mmain():
+def main():
     while True:
         nome = novo_nome()
         if not nome_existe(nome):
@@ -11,3 +11,7 @@ def mmain():
             break
 
     print(f'Criado novo nome de testes: "{nome}"')
+
+
+if __name__ == '__main__':
+    main()
