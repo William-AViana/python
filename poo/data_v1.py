@@ -1,4 +1,5 @@
 class Data:
+    # definição de um método para gerar string ou pode usar __str__
     def to_str(self):
         return f'{self.dia}/{self.mes}/{self.ano}'
 
